@@ -1,6 +1,7 @@
 * {
   margin:0;
   padding: 0;
+  font-family: times;
 }
 body{
   margin: 0;
@@ -79,7 +80,7 @@ span:hover {
 
 
 #University{
-  background-image:url(../img/backgroundwebsite.jpg);
+  background-image:url(../img/Coronetpeaklightning.jpg);
   background-size:cover;
   background-position: center;
   height:100vh;
@@ -94,7 +95,7 @@ span:hover {
 #University h1{
   font-size: 65px;
   line-height: 1.2;
-  color: darkblue;
+  color: white;
   font-family: Times;
   animation: Application linear 2s;
   -webkit-animation: Application linear 2s;
@@ -105,7 +106,7 @@ span:hover {
 
 #University p{
   font-size: 17px;
-  color: darkblue;
+  color: white;
   animation: Application linear 2s;
   -webkit-animation: Application linear 2s;
   -moz-animation: Application linear 2s;
@@ -117,7 +118,7 @@ span:hover {
   font-size: 18px;
   text-decoration: none;
   color: white;
-  background:blue;
+  background:darkred;
   border: black 1px solid;
   padding:10px 20px;
   border-radius: 10px;
@@ -134,6 +135,273 @@ span:hover {
   color:black;
   border: white 1px solid;
   transition: 1s;
+}
+
+#feature{
+  width: 100%;
+  padding:70px 0;
+}
+
+
+.title-text{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.title-text p{
+  margin: auto;
+  font-size: 30px;
+  color: darkred;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+
+.title-text h1{
+  font-size: 50px;
+}
+
+.feature-box{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.features{
+  flex-basis: 50%;
+}
+
+.features-img{
+  flex-basis: 50%;
+  margin: auto;
+}
+
+.features-img img{
+  width: 70%;
+  border-radius: 10px;
+}
+
+.features h1{
+  text-align: center;
+  margin-bottom: 2px;
+  font-weight: 100;
+  color: black;
+}
+
+.features-desc{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  font-family: times;
+}
+
+.feature-text p{
+  padding: 0 20px;
+}
+
+#footer2{
+  width: 100%;
+  padding: 70px 0;
+  background: #efefef
+}
+
+#footer2 h1{
+  font-size: 40px;
+}
+
+#footer2 a{
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  background:darkred;
+  border: black 1px solid;
+  padding:10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#footer2 a:hover{
+  background: white;
+  color:black;
+  border: white 1px solid;
+  transition: 1s;
+}
+
+@media screen and (max-width: 770px){
+  .title-text h1{
+    font-size: 30px;
+  }
+  .features{
+    flex-basis: 100%;
+  }
+  .features-img{
+    flex-basis:100%;
+  }
+  .features-img img{
+    width: 100%;
+  }
+}
+
+#footer{
+  width: 100%;
+  padding: 70px 0;
+}
+
+#footer h1{
+  font-size: 40px;
+}
+
+#footer a{
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  background:darkred;
+  border: black 1px solid;
+  padding:10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#footer a:hover{
+  background: white;
+  color:black;
+  border: white 1px solid;
+  transition: 1s;
+}
+
+#footer1{
+  width: 100%;
+  padding: 70px 0;
+}
+
+#footer1 h1{
+  font-size: 40px;
+}
+
+#footer1 a{
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  background:darkred;
+  border: black 1px solid;
+  padding:10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#footer1 a:hover{
+  background: white;
+  color:black;
+  border: white 1px solid;
+  transition: 1s;
+}
+
+#work{
+  width: 100%;
+  padding: 70px 0;
+  background: #efefef
+}
+
+#work p{
+  padding-top: 30px;
+}
+
+#hobbies p{
+  padding-top: 30px;
+}
+
+#jobs p{
+  padding-top: 30px;
+}
+
+#conclude{
+  width: 100%;
+  padding: 0 0;
+}
+#work .title-text{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#hobbies{
+  width: 100%;
+  padding: 70px 0;
+}
+
+#work .title-text{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#hobbies {
+  width: 100%
+  padding: 70px 0;
+}
+
+#hobbies .title-text{
+  text-align: center;
+  padding: 30px;
+}
+
+#jobs{
+  width: 100%;
+  padding: 70px 0;
+  background: #efefef;
+}
+
+#jobs .title-text{
+  text-align: center;
+  padding: 30px;
+}
+
+
+.work-box{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+.single-work{
+  flex-basis: 48%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.single-work p{
+  margin: auto;
+  font-size: 20px;
+  color: darkred;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+
+.single-work img{
+  width: 100%;
+  border-radius: 7px;
+}
+
+
+
+@media screen and (max-width: 770px){
+  .single-work{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
 }
 
 @-webkit-keyframes Application {
