@@ -123,6 +123,7 @@ span:hover {
   padding:10px 20px;
   border-radius: 10px;
   margin-top: 20px;
+  transition: 1s;
   animation: Application linear 2s;
   -webkit-animation: Application linear 2s;
   -moz-animation: Application linear 2s;
@@ -162,6 +163,7 @@ span:hover {
 .title-text h1{
   font-size: 50px;
 }
+
 
 .feature-box{
   width: 80%;
@@ -217,17 +219,17 @@ span:hover {
 #footer2 a{
   font-size: 40px;
   text-decoration: none;
-  color: white;
-  background:darkred;
-  border: black 1px solid;
+  color: darkred;
+  background:#efefef;
   padding:10px 20px;
   border-radius: 10px;
   margin-top: 20px;
+  transition: 1s;
 }
 
 #footer2 a:hover{
-  background: white;
-  color:black;
+  background: darkred;
+  color:white;
   border: white 1px solid;
   transition: 1s;
 }
@@ -259,17 +261,17 @@ span:hover {
 #footer a{
   font-size: 40px;
   text-decoration: none;
-  color: white;
-  background:darkred;
-  border: black 1px solid;
+  color: darkred;
+  background:white;
   padding:10px 20px;
   border-radius: 10px;
   margin-top: 20px;
+  transition: 1s;
 }
 
 #footer a:hover{
-  background: white;
-  color:black;
+  background: darkred;
+  color:white;
   border: white 1px solid;
   transition: 1s;
 }
@@ -286,17 +288,17 @@ span:hover {
 #footer1 a{
   font-size: 40px;
   text-decoration: none;
-  color: white;
-  background:darkred;
-  border: black 1px solid;
+  color: darkred;
+  background:white;
   padding:10px 20px;
   border-radius: 10px;
   margin-top: 20px;
+  transition: 1s;
 }
 
 #footer1 a:hover{
-  background: white;
-  color:black;
+  background: darkred;
+  color:white;
   border: white 1px solid;
   transition: 1s;
 }
@@ -368,7 +370,6 @@ span:hover {
   margin: auto;
 }
 
-
 .single-work{
   flex-basis: 48%;
   text-align: center;
@@ -394,6 +395,7 @@ span:hover {
   width: 100%;
   border-radius: 7px;
 }
+
 
 
 
